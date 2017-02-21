@@ -2,14 +2,20 @@
 <html>
 
 <head>
-    <title>Home</title>
+    <title>Comparateur de prix</title>
     <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 
 <body>
-    <p>Welcome to
+<h1>Comparateur de prix pour Appartement</h1>
+    <p>
         <%= message %>
     </p>
+    <form action="/" method="GET">
+        <input type="text" name="urlLBC" />
+        <button type "submit">Comparer</button>
+
+    </form>
 </body>
 
 </html>
